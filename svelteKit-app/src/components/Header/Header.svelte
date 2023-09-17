@@ -1,11 +1,6 @@
 <script lang="ts">
+	import { languages, tableNumber } from "../../mock/headerData";
   import "./header.css"
-  
-  type Languages = {
-    name: string
-  }
-  
-  const languages: Languages[] = [{ name: 'English' }, { name: '한국어' }];
 
   let language = languages[0].name
   let isToggle = false
@@ -64,7 +59,7 @@
 
     <li class="header-menu-table" >
       <img src="/table.png" alt="table-icon" />
-      <p class="menu-table-number">12</p>
+      <p class="menu-table-number">{tableNumber}</p>
     </li>
   </ul>
 </header>

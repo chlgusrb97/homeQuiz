@@ -1,0 +1,39 @@
+#category-wrapper {
+	padding: 20px;
+	background-color: #fff;
+}
+
+#category-menu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.category-menu-list {
+	position: relative;
+	width: calc(25% - 20px);
+	padding-top: calc(25% - 20px);
+	border-radius: 14px;
+	background-color: #f9f9f9;
+	cursor: pointer;
+
+	> img {
+		position: absolute;
+		top: -10px;
+		width: 70%;
+		height: 70%;
+		border-radius: 50%;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		background-color: #bbb;
+	}
+}
+
+.menu-list-title {
+	position: absolute;
+	bottom: 10%;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	font-size: 1.2em;
+	white-space: nowrap;
+}

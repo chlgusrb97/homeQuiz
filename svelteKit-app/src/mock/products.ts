@@ -1,4 +1,34 @@
-export const products = {
+type ProductOrder =
+	| 'appetizer01'
+	| 'appetizer02'
+	| 'appetizer03'
+	| 'appetizer04'
+	| 'appetizer05'
+	| 'appetizer06'
+	| 'meatPasta01'
+	| 'meatPasta02'
+	| 'meatPasta03'
+	| 'meatPasta04'
+	| 'meatPasta05'
+	| 'meatPasta06'
+	| 'meatPasta07'
+	| 'meatPasta08'
+	| 'wine01'
+	| 'wine02'
+	| 'wine03'
+	| 'wine04';
+
+type ProductData = {
+	description: string;
+	id: string;
+	name: string;
+	picture?: string;
+	price: number;
+};
+
+type Products = Record<ProductOrder, ProductData>;
+
+export const products: Products = {
 	appetizer01: {
 		description: 'Romain lettuce and croutons with caesar dressing.',
 		id: 'appetizer01',

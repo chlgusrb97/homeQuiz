@@ -1,4 +1,6 @@
-export const categoryOrder = [
+import type { CategoryOrder } from './categories';
+
+export const categoryOrder: CategoryOrder[] = [
 	'mockCategory01',
 	'mockCategory02',
 	'mockCategory03',
