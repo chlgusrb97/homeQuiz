@@ -1,4 +1,4 @@
-import type { CategoryOrder } from './categories';
+import type { CategoryOrder } from '../types/categories';
 
 export const categoryOrder: CategoryOrder[] = [
 	'mockCategory01',
