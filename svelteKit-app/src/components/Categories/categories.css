@@ -16,17 +16,17 @@
 	border-radius: 14px;
 	background-color: #f9f9f9;
 	cursor: pointer;
+}
 
-	> img {
-		position: absolute;
-		top: -10px;
-		width: 70%;
-		height: 70%;
-		border-radius: 50%;
-		margin-left: 50%;
-		transform: translateX(-50%);
-		background-color: #bbb;
-	}
+.menu-list-image {
+	position: absolute;
+	top: -10px;
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: #bbb;
 }
 
 .menu-list-title {

@@ -1,5 +1,7 @@
 <script>
-  import Category from "../components/Category/Category.svelte";
+	import Categories from "../components/Categories/Categories.svelte";
+
+  
 </script>
 
-<Category />
+<Categories />
